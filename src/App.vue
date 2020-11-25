@@ -16,12 +16,16 @@
       >
       <!-- サブメニューを定義 -->
       <el-submenu index="3">
-        <template v-slot:title>Support</template>
+        <template v-slot:title>Help</template>
         <el-menu-item index="3-1">
-          <a href="https://wings.msn.to/" target="help">Author</a>
+          <a href="https://yosuke24.com/" target="help">作成者</a>
         </el-menu-item>
         <el-menu-item index="3-2">
-          <a href="https://www.sbcr.jp/" target="help">Publisher</a>
+          <a
+            href="https://github.com/Yosuke-Nishizawa/reading-record"
+            target="help"
+            >Github</a
+          >
         </el-menu-item>
       </el-submenu>
     </el-menu>
